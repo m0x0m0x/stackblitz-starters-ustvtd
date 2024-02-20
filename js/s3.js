@@ -104,7 +104,30 @@ for (let i = 0; i <= agesLA.length; i++) {
   console.log(agesLA[i], typeof agesLA[i]);
 }
 
-console.log("ya");
-console.log(`
-Note on CTRL+S , console will get activated
-`);
+// Continue and break
+
+console.log(
+  `%c
+Looping and Breaking in loops
+`,
+  "color:#FF55BB;font-size:14px;font-style:italic"
+);
+
+console.log(`----- ONLY sring----`);
+for (let i = 1; i < mistressLA.length; i++) {
+  console.log("Printing only strings");
+  // This statement is to extract only strings
+  if (typeof mistressLA[i] != "string") continue;
+  // This wont be reached
+  console.log(mistressLA[i], typeof mistressLA[i]);
+}
+
+// Log nothing after number found
+console.log(`--- BREAK WITH NUMBER ---`);
+console.log(mistressLA);
+for (let i = 0; i < mistressLA.length; i++) {
+  // Break after number found
+  if (typeof mistressLA[i] === "number") break;
+  // This wont be reached
+  console.log(mistressLA[i], typeof mistressLA[i]);
+}
