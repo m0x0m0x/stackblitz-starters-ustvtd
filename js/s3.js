@@ -103,3 +103,5 @@ console.log(agesLA);
 for (let i = 0; i <= agesLA.length; i++) {
   console.log(agesLA[i], typeof agesLA[i]);
 }
+
+console.log('ya')
