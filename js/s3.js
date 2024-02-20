@@ -194,3 +194,21 @@ console.log(
 `,
   "color:yellow;font-size:1rem"
 );
+
+for (let excercise = 1; excercise < 4; excercise++) {
+  console.log(`%c --Startiing excercise ${excercise}`, "color:#F806CC");
+}
+
+// While loop
+let rep = 1;
+let pusy = 1;
+while (rep <= 10) {
+  console.log(`Bastard do excercise - ${rep}`);
+
+  let pusy = 1;
+  while (pusy <= 2) {
+    console.log(`Licking Pusy - ${pusy}`);
+    pusy++;
+  }
+  rep++;
+}
