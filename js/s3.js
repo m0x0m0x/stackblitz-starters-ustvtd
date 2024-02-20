@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
 console.log(
   ` %c
 Section 3 - Js Fundamentals 2 - Strict Mode
 `,
-  'color:#F72798;font-size: 1rem;'
+  "color:#F72798;font-size: 1rem;"
 );
 console.log(
   ` %c
@@ -27,7 +27,7 @@ console.log(
   https://emojicombos.com/dot-ascii-art
 
 `,
-  'color:#F72798'
+  "color:#F72798"
 );
 
 //////////////////////////////////////////////////////////////
@@ -36,16 +36,16 @@ console.log(
   ` %c
 47 - Loops, arrays, Breaking and continuing - LA
 `,
-  'color:yellow;font-size:1rem'
+  "color:yellow;font-size:1rem"
 );
 
 // Defining a new array
 const mistressLA = [
-  'Gina',
-  'Lik',
+  "Gina",
+  "Lik",
   2024 - 2000,
-  'mistress',
-  ['far', 'sca', 'ass'],
+  "mistress",
+  ["far", "sca", "ass"],
   true,
 ];
 
@@ -63,7 +63,7 @@ console.log(
   `%c
 Creating a new array with the types of variable sin mistressLA
 `,
-  'color:#FF55BB;font-size:14px;font-style:italic'
+  "color:#FF55BB;font-size:14px;font-style:italic"
 );
 
 const typesLA = [];
@@ -80,7 +80,7 @@ console.log(
   `%c
 Printing new array typesLA[]
 `,
-  'color:green'
+  "color:green"
 );
 console.log(typesLA);
 
@@ -88,7 +88,7 @@ console.log(
   `%c
 Practical example of a new array
 `,
-  'color:#FF55BB;font-size:14px;font-style:italic'
+  "color:#FF55BB;font-size:14px;font-style:italic"
 );
 
 const yearsLA = [1991, 2007, 1969, 2000];
@@ -104,4 +104,7 @@ for (let i = 0; i <= agesLA.length; i++) {
   console.log(agesLA[i], typeof agesLA[i]);
 }
 
-console.log('ya')
+console.log("ya");
+console.log(`
+Where in teh workd
+`);
