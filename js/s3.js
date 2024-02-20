@@ -106,7 +106,5 @@ for (let i = 0; i <= agesLA.length; i++) {
 
 console.log("ya");
 console.log(`
-Where in teh workd, this is for testing
-and many more, another run 
-and many more 
+Note on CTRL+S , console will get activated
 `);
