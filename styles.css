@@ -32,9 +32,20 @@ nav a {
   background-color: #8d029b;
 }
 
-nav a[aria-current="page"] {
+nav a,
+nav a:link {
   color: #ff00ff;
   background-color: #060006;
+}
+
+nav a:hover {
+  color: #060006;
+  background-color: #ff00ff;
+}
+
+nav a:active {
+  color: #060006;
+  background-color: #ff00ff;
 }
 
 main {
@@ -53,6 +64,7 @@ main {
 }
 .homepage-header {
   border-bottom: solid 1px #aaa;
+  text-align: center;
 }
 
 /* 
