@@ -22,3 +22,5 @@ To execute a js file inside this stackblitz is
 ```
 node checkbal.js
 ```
+
+# Free RPC

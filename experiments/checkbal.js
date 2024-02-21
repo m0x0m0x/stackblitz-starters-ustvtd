@@ -12,3 +12,7 @@ const web3 = new Web3("https://rpc.ankr.com/polygon");
 
 web3.eth.getBlockNumber().then(console.log);
 // ↳ 18849658n
+
+web3.eth.getGasPrice().then((gasPrice) => {
+  console.log("Fucking gas price is", gasPrice);
+});
