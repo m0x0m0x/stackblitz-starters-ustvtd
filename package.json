@@ -3,6 +3,7 @@
     "start": "servor --reload"
   },
   "dependencies": {
-    "servor": "^4.0.2"
+    "servor": "^4.0.2",
+    "web3": "^4.5.0"
   }
 }
