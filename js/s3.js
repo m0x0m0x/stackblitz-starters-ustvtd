@@ -190,7 +190,7 @@ console.log(
 /////////////////////////////////////////////////////////////
 console.log(
   ` %c
-49 - While Loop
+49 - While Loop - WL
 `,
   "color:yellow;font-size:1rem"
 );
@@ -211,4 +211,21 @@ while (rep <= 10) {
     pusy++;
   }
   rep++;
+}
+
+// Dice rolling randomizer , and then when get 6 then stop
+console.log(
+  ` %c
+ === Dice Roll ===
+ `,
+  "color:#97FEED;font-size:14px;font-style:italic"
+);
+
+//randomizer
+let diceWL = Math.trunc(Math.random() * 6) + 1;
+console.log(diceWL);
+
+while (diceWL !== 6) {
+  console.log(`Rolled: %c${diceWL}`, "color:pink");
+  diceWL = Math.trunc(Math.random() * 6) + 1;
 }
