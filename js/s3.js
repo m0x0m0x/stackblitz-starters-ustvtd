@@ -221,11 +221,18 @@ console.log(
   "color:#97FEED;font-size:14px;font-style:italic"
 );
 
-//randomizer
+//randomizer testing
 let diceWL = Math.trunc(Math.random() * 6) + 1;
 console.log(diceWL);
 
+// Function for while loop seperate from above
 while (diceWL !== 6) {
-  console.log(`Rolled: %c${diceWL}`, "color:pink");
   diceWL = Math.trunc(Math.random() * 6) + 1;
+  console.log(`Rolled: %c${diceWL}`, "color:pink");
+  diceWL === 6
+    ? console.log(
+        `%c Six Reached - ${diceWL} - Loop Terminated !`,
+        "color:green"
+      )
+    : console.log(`%c not yet`, "color:red");
 }

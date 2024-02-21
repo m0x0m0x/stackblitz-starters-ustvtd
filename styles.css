@@ -32,7 +32,7 @@ nav a {
   background-color: #8d029b;
 }
 
-nav a[aria-current='page'] {
+nav a[aria-current="page"] {
   color: #ff00ff;
   background-color: #060006;
 }
@@ -48,7 +48,7 @@ main {
 }
 
 .homepage {
-  font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
   text-align: center;
 }
 .homepage-header {
